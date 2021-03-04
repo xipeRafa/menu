@@ -27,3 +27,8 @@ function toggleColorcinco() {
     document.getElementById("btn5").classList.toggle("mostrar");
     document.getElementById("btn5").classList.toggle("ocultar");
 }
+
+function toggleColorseis() {
+    document.getElementById("btn6").classList.toggle("mostrar");
+    document.getElementById("btn6").classList.toggle("ocultar");
+}
