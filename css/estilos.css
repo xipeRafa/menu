@@ -1,0 +1,112 @@
+
+
+.bcontenedor {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.v {
+    width: 87.3%;
+    margin-left: 5.2%;
+    height: 35px;
+    padding: 0 5px;
+    margin: 0 auto;
+    background-color: rgba(33, 67, 100, .5);
+    border: 1px solid #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-bar {
+    width: 30px;
+    cursor: pointer;
+}
+
+.uno, .dos, .tres {
+    background: #999;
+    height: 5px;
+    transition: .4s;
+}
+
+.dos {
+    margin: 5px 0;
+}
+
+.flexAuto{
+    flex: auto;
+    text-align: center;
+    margin: 0 2px 0 2px;
+    transition: 1s;
+}
+
+.menu {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*display: none;*/
+    list-style: none;
+    background-color: steelblue;
+}
+
+
+
+.menu a {
+    color: #eee;
+    text-decoration: none;
+    line-height: 2.5;
+    display: block;
+    cursor: default;
+    font-size: .8em;
+    transition: .8s;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, .1);
+    color: #333;
+}
+
+.mostrar a {
+    display: block;
+}
+
+.ocultar {
+    display: none;
+}
+
+.toggle-menu {
+    background: #159;
+    line-height: 2.5;
+    color: #fff;
+    padding: .1em;
+    font-size: 1em;
+    cursor: pointer;
+    border: .5px solid rgba(100, 100, 100, .4);
+    transition: .6s;
+}
+
+.toggle-menu:hover {
+    color: #333;
+}
+
+.toggle-submenu {
+    background: #155;
+    line-height: 1;
+    color: #199;
+    padding: .5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+@media (min-width: 650px) {
+    .bcontenedor {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .v {
+        display: none;
+    }
+}
